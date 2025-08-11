@@ -1,7 +1,7 @@
 <?php
 
 $nome = "Adailton"; //Criação de variáveis em PHP - inicia com $
-$idade = 12; // Cria variável numerica
+$idade = 11; // Cria variável numerica
 $idadestr = "20"; //Cria uma variável string
 echo "Boa noite, ".$nome; // Concatena frase + variavel
 echo "<br> Idade: ".$idade;
@@ -30,9 +30,39 @@ while($idade < 18) {
 }
 */
 
+/*
 $idade = 18;
 do {
     echo "Você não tem idade para dirigir: <br>";
     echo "Idade atual: ".$idade;
     $idade = $idade +1;
 } while($idade < 18);
+
+for($i = 0; $i < 10; $i++){
+    echo "<br>O valor atual é: <br>".$i;
+} */
+
+$idade = 12;
+switch($idade) {
+    case "16":
+        echo "Você pode votar";
+        break;
+    
+    case "17":
+        echo "Você pode votar";
+        echo "<br>:ocê não pode dirigir";
+        break;
+
+    case "18":
+        echo "Você pode dirigir";
+        break;
+    
+    default:
+    if($idade > 18){
+    echo "Você já alcançou a maioridade";
+    } else {
+        echo "Você pode estudar...";
+    }
+
+    break;
+}
