@@ -42,6 +42,7 @@ for($i = 0; $i < 10; $i++){
     echo "<br>O valor atual é: <br>".$i;
 } */
 
+/*
 $idade = 12;
 switch($idade) {
     case "16":
@@ -66,3 +67,12 @@ switch($idade) {
 
     break;
 }
+    */
+
+    $lista []= 1;
+    $lista []= "2";
+    $lista [4]= 3;
+    $lista []= 4;
+    echo "<pre>";
+    
+    var_dump($lista) ;
