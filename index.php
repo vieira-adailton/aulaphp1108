@@ -12,6 +12,8 @@
         <input type="text" name="nome"> <!-- A propriedade name virará variáveis php-->
         <label type="email"for="">E-mail</label>
         <input type="text" name="email" id="">
+        <label for="">Telefone</label>
+        <input type="text" name="telefone" id="">
         <input type="submit" value="Enviar"> <!-- Cria botão-->
         <input type="reset" value="Limpar">  <!-- Cria botão-->
         <button type="submit">Enviar</button> <!-- Cria botão-->
